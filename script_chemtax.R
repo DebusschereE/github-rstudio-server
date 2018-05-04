@@ -4,7 +4,7 @@ require(maps)
 require(mapdata)
 require(dplyr)
 
-#Data
+#Data#####
 t=read.csv("Cruise_data_2017_V9_complete_Flowcam_NGS.csv",h=T,row.names=1)
 
 t$N.Si<-(t$Nutr_NO2+t$Nutr_NO3+t$Nutr_NOX)/t$Nutr_SiO2
